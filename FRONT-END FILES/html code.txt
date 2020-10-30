@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+       <title>
+           mass
+
+       </title>
+        <style>
+            body{
+
+                background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+            }
+           
+            
+            h3{
+                text-align:center;
+            }
+            li{
+                color: azure;
+            }
+            button{
+                font-size: 25px;
+                padding: 10px;
+                border-radius:10px ;
+                margin:20 ;
+               ]
+               
+            }
+            #container2{
+                
+                position: fixed;
+                left: 65%;
+                right: 100%;
+                top:30%;
+            }
+
+                
+
+            #container1{
+                position: fixed;
+                left: 20%;
+                top:30%;
+
+
+            }
+                
+                
+               
+            
+            
+           
+        </style>
+    </head>
+    
+
+
+
+    
+    <body>
+        <div class="container" style="background: linear-gradient(to top, #30cfd0 0%, #330867 100%);" >
+            <h1 style="text-align: center;">Name of the Application</h1>
+            <h3 style="text-align: center;" > License plate Recognition</h3>
+        </div>
+        
+        <br>
+        
+        
+        <div id="container2">
+            <button id="1" style="width:150;"><i>Start</i></button>
+</div>
+<div id="container1">
+         
+        <button id="btn" style="width: 150;"><i>New entry</i></button>
+        </div>
+        <br><br>
+
+       <p>
+           <br><br><br><br>
+            <h4>About</h4>
+           <ul>
+               <i> <li>Vechicle theft has become serious problem in India and the Crime is growing at an excellent rate<br>
+                to avoid this police can use this web application in a preferable  manner  </li>
+                <li>Using Machine Learning Image Processing technique,we grab the image of the Vechicle and process it to show the license Plate number </li>
+                <li>This Processing is called license plate recognition</li>
+                <li>After the license number is retrieved we search it in database and Check whether the Vechicle is stolen or Not  </li>
+            </i>   
+            </ul><hr>
+
+            <h4>How to use:</h4>
+            <ol><i>
+                <li>
+                Here we have two buttons as start and new entry</li>
+                <li>When we click on start and new entry</li>
+                <li>After clicking space bar,it will automatically recognize the number plate and the details of that Vechicle shown in this details section</li>
+                <li>when we click on way entry,you can add the complaints of the Vechicle thief details</li>
+            </i>
+            </ol>
+
+
+        
+        </p>
+    </body>
